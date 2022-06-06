@@ -1,0 +1,376 @@
+@charset "UFT-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* 裝置 */
+
+/* W=0-768px */
+@media screen and (min-width:0px) and (max-width:768px){
+    html{
+        font: size 16px;
+    }
+
+    body{
+        background-color: #333333;
+    }
+
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logo{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .menu{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        letter-spacing: 0.2rem;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar {
+        padding-top: 10%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .menu .navbar li {
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu .navbar a{
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+    }
+
+
+    
+    
+    
+    .menu .projects .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+    
+    .menu .aboutme .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+}
+ 
+
+/* W=769-1424px */
+@media screen and (min-width:769px) and (max-width:1424px){
+
+    body{
+        background-color: #333333;
+    }
+
+    html{
+        font-size: 16px;
+    }
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logo{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .menu{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        letter-spacing: 0.2rem;
+        width: auto;
+        padding-right: 10%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .menu .navbar li {
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu .navbar a{
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+    }
+    
+    .menu .navbar ul a:hover{
+        color: #c4c4c4;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .menu .projects{
+        padding-right: 4.5rem;
+    }
+    
+    .menu .projects .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+    
+    .menu .aboutme .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+    
+
+}
+
+/* W=1425-1919px */
+@media screen and (min-width:1425px) and (max-width:1919px){
+
+    body{
+        background-color: #333333;
+    }
+
+    html{
+        font-size: 16px;
+    }
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logo{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .menu{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        letter-spacing: 0.2rem;
+        width: auto;
+        padding-right: 12.5rem;
+        padding-left: 12.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .menu .navbar li {
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu .navbar a{
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+    }
+    
+    .menu .navbar ul a:hover{
+        color: #70FF00;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .menu .projects{
+        padding-right: 4.5rem;
+    }
+    
+    .menu .projects .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+    
+    .menu .aboutme .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+}
+
+/* W=1920px */
+@media screen and (min-width:1920px){
+
+/* banner */
+
+    html{
+    font-size:16px;
+    }
+
+
+
+    body{
+        background-color: #333333;
+    }
+
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logo{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .menu{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        letter-spacing: 0.2rem;
+        width: auto;
+        padding-right: 10%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .menu .navbar li {
+        display: block;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        color: #fafafa;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    
+    .menu .projects{
+        padding-right: 4.5rem;
+    }
+    
+    .menu .projects .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+    
+    .menu .aboutme .en{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+    }
+
+}

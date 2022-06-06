@@ -1,0 +1,745 @@
+@charset "UFT-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.html{
+    scroll-behavior: smooth;
+}
+
+/* 裝置 */
+
+/* W=0-768px */
+@media screen and (min-width:0px) and (max-width:768px){
+    html{
+        font-size: 16pt;
+    }
+
+    body{
+        background-color: #333333;
+    }
+
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .introbanner{
+        color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        margin-bottom: 50%;
+    }
+    
+    .introcontent{
+        color: #fafafa;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    
+    }
+    
+    
+    .introbanner p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        padding-bottom: 10%;
+    }
+    
+    .introbanner h1{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 800;
+        font-size: 2.7rem;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+        padding-bottom: 10%;
+    }
+    
+    .introbanner h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #c4c4c4;
+        letter-spacing: 0.2rem;
+    }
+    
+    .introbanner h5 span{
+        font-weight: 800;
+    }
+
+    .introbanner img{
+        width: 100%;
+    }
+
+    /* projects */
+    
+    .container-content-1{
+        margin-top: 12%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-content-2{
+        margin-top: 6%;
+        margin-bottom: 12%;
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 100%;
+    }
+
+
+
+    .container-text {
+        color: #fafafa;
+    }
+
+
+
+    .container-text h3{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+   
+    .content{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 100;
+        color: #fafafa;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 160%;
+        padding-top: 0%;
+        padding-bottom: 10%;
+        font-weight: 200;
+    }
+
+
+    .tag-prouductdesign{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 600;
+        font-size: 0.7rem;
+        border-color: #70FF00;
+        color: #70FF00;
+        letter-spacing: 0.2rem;
+    }
+
+
+    a{
+        text-decoration: none;
+        display:block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #fafafa;
+        width: fit-content;
+    }
+
+    a:hover{
+        color: #70FF00;
+    }
+      
+    .Button:hover{
+        color: #70FF00;
+        border-color: #70FF00;
+        border-width: 0.3rem solid;
+        transition: 0.8s;
+    }
+    
+    .Button{
+        font-size: 1.4rem;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+        width: fit-content;
+        border-bottom-style: solid;
+        padding-bottom: 4%;
+        border-bottom: 0.2rem solid #fafafa;
+    }
+
+
+    .container-pic{
+        flex: 0 1 100%;
+    }
+
+    .Container-picImg{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+}
+ 
+/* W=769-1439px */
+@media screen and (min-width:769px) and (max-width:1424px){
+
+    body{
+        background-color: #333333;
+    }
+
+    html{
+        font-size: 16px;
+    }
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+
+    .introbanner{
+        color: #fafafa;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    .introcontent{
+        color: #fafafa;
+        padding-top: 20%;
+    
+    }
+    
+    
+    .introbanner p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        padding-bottom: 0.75rem;
+    }
+    
+    .introbanner h1{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 800;
+        font-size: 2.8rem;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+        padding-bottom: 3.75rem;
+    }
+    
+    .introbanner h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: #c4c4c4;
+        letter-spacing: 0.2rem;
+    }
+    
+    .introbanner h5 span{
+        font-weight: 800;
+    }
+
+    .introbanner img{
+        width: 50%;
+    }
+
+        /* projects */
+    
+    .container-content-1{
+        margin-top: 12%;
+        margin-bottom: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-content-2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 100%;
+    }
+
+
+
+    .container-text {
+        color: #fafafa;
+    }
+
+
+
+    .container-text h3{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+   
+    .content{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #fafafa;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 160%;
+        padding-top: 0%;
+        padding-bottom: 6%;
+        font-weight: 200;
+    }
+
+
+    .tag-prouductdesign{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 600;
+        font-size: 0.7rem;
+        border-color: #70FF00;
+        color: #70FF00;
+        letter-spacing: 0.2rem;
+    }
+
+    a{
+        text-decoration: none;
+        display:block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #fafafa;
+        width: fit-content;
+    }
+
+    a:hover{
+        color: #70FF00;
+    }
+
+    .Button:hover{
+        color: #70FF00;
+        border-color: #70FF00;
+        border-width: 0.3rem solid;
+        transition: 0.8s;
+    }
+    
+    .Button{
+        font-size: 1.6rem;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+        width: fit-content;
+        border-bottom-style: solid;
+        padding-bottom: 4%;
+        border-bottom: 0.2rem solid #fafafa;
+    }
+
+
+    .container-pic{
+        flex: 0 1 100%;
+    }
+
+    .Container-picImg{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* W=1440-1919px */
+@media screen and (min-width:1425px) and (max-width:1919px){
+
+    body{
+        background-color: #333333;
+    }
+
+    html{
+        font-size: 16px;
+    }
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+  
+    .introbanner{
+        color: #fafafa;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-top: 8%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    .introcontent{
+        color: #fafafa;
+        padding-top: 12rem;
+    
+    }
+    
+    
+    .introbanner p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        padding-bottom: 0.75rem;
+    }
+    
+    .introbanner h1{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+        padding-bottom: 3.75rem;
+    }
+    
+    .introbanner h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #c4c4c4;
+        letter-spacing: 0.2rem;
+    }
+    
+    .introbanner h5 span{
+        font-weight: 800;
+    }
+
+    /* projects */
+    
+    .container-content-1{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-content-2{
+        margin-top: 6%;
+        margin-bottom: 6%;
+        margin-right: 6%;
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 50%;
+    }
+
+
+
+    .container-text {
+        color: #fafafa;
+    }
+
+
+
+    .container-text h3{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+   
+    .content{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #fafafa;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 160%;
+        padding-top: 4%;
+        padding-bottom: 12%;
+        font-weight: 200;
+    }
+
+
+    .tag-prouductdesign{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 600;
+        font-size: 0.8rem;
+        border-color: #70FF00;
+        color: #70FF00;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+
+    a{
+        text-decoration: none;
+        display:block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #fafafa;
+        width: fit-content;
+    }
+
+    a:hover{
+        color: #70FF00;
+    }
+
+    .Button:hover{
+        color: #70FF00;
+        border-color: #70FF00;
+        border-width: 0.3rem solid;
+        transition: 0.8s;
+    }
+    
+    .Button{
+        font-size: 1.6rem;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        width: fit-content;
+        border-bottom-style: solid;
+        padding-bottom: 4%;
+        border-bottom: 0.2rem solid #fafafa;
+    }
+
+
+    .container-pic{
+        flex: 0 1 50%;
+        transform: scale(1);
+    }
+
+    .container-pic:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+    }
+
+    .Container-picImg{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* W=1920px */
+@media screen and (min-width:1920px){
+
+/* banner */
+
+    html{
+    font-size:16px;}
+
+    body{
+        background-color: #333333;
+    }
+
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+   
+    
+    .introbanner{
+        color: #fafafa;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    .introcontent{
+        color: #fafafa;
+        padding-top: 12rem;
+    
+    }
+    
+    
+    .introbanner p{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        padding-bottom: 0.75rem;
+    }
+    
+    .introbanner h1{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+        padding-bottom: 3.75rem;
+    }
+    
+    .introbanner h5{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #c4c4c4;
+        letter-spacing: 0.2rem;
+    }
+    
+    .introbanner h5 span{
+        font-weight: 800;
+    }
+
+    
+    /* projects */
+    
+    .container-content-1{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container-content-2{
+        margin-top: 6%;
+        margin-bottom: 6%;
+        margin-right: 6%;
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 50%;
+    }
+
+
+
+    .container-text {
+        color: #fafafa;
+    }
+
+
+
+    .container-text h3{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+   
+    .content{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #fafafa;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 160%;
+        padding-top: 4%;
+        padding-bottom: 20%;
+        font-weight: 200;
+    }
+
+
+    .tag-prouductdesign{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 600;
+        font-size: 0.8rem;
+        border-color: #70FF00;
+        color: #70FF00;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+
+
+
+    .Button:hover{
+        color: #70FF00;
+        border-color: #70FF00;
+        border-width: 0.3rem solid;
+        transition: 0.8s;
+    }
+
+    a{
+        text-decoration: none;
+        display:block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #fafafa;
+        width: fit-content;
+    }
+
+    a:hover{
+        color: #70FF00;
+    }
+    
+    .Button {
+        color: #fafafa;
+        font-size: 2rem;
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        width: fit-content;
+        border-bottom-style: solid;
+        padding-bottom: 4%;
+        border-bottom: 0.2rem solid #fafafa;
+    }
+
+
+    .container-pic{
+        flex: 0 1 50%;
+        transform: scale(1);
+    }
+
+    .container-pic:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+    }
+
+    .Container-picImg{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+

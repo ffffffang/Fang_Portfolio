@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FF profile</title>
+    <!--javascript-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html');
+        });
+    </script>
+
+    <!--針對網頁螢幕-->
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="img/png" href="./img/favicon.png">
+
+
+</head>
+
+
+<body id="bg-4">
+
+    <div id="header"></div>
+    <div>
+
+
+
+        <div class="container">
+
+            <div class="banner">
+                <div class="info">
+                    <span>
+                        <h5>MY ROLE</h5>
+                        <p>
+                            Wireframing<br>
+                            UI Design<br>
+                            User Flow<br>
+                            Interaction Design
+                        </p>
+                    </span>
+
+                    <span>
+                        <h5>PLATFORMS</h5>
+                        <p>Saas</p>
+                    </span>
+
+                    <span>
+                        <h5>YEARS</h5>
+                        <p>2022</p>
+                    </span>
+                </div>
+
+
+                <div class="title">
+                    <h5>〔 Saas Software 〕</h5>
+                    <h1>HPAEHM</h1>
+                    <p>長者健康
+                        <br>管理平台
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-1">
+
+                <span>
+                    <p>協助社區單位及地方政府有效運用資通訊技術，以利管理長者健康資訊，並透過平台下載長者容易理解的個人報告，進而增加對健康自主管理與長者健康促進單位活動的信心。
+                        提供社區單位、縣市政府與國健署，符合長者健康管理與預防及延緩失能網絡需求之網站與系統。
+                        此次優化平台功能包含師資管理、使用者權限類別與成效統計。</p>
+                </span>
+
+
+                <span>
+                    <h5>使用者</h5>
+                    <p> ◼ 國健署社區組
+                        <br>
+                        ◼ 各地方衛生局
+                        <br>
+                        ◼ 國民健康署預防及延緩失能整合計畫子計畫二工工作分項二之社區單位
+                    </p>
+                </span>
+
+                <span>
+                    <h5>資訊架構</h5>
+                    <img src="./img/HPAhealth/IA.jpg" alt="" class="IA_PIC">
+                </span>
+
+
+                <span>
+
+                    <h5>舊版本使用者痛點</h5>
+                    <p>
+                        依據客服人員回報統計數據，發現各單位使用上常發生以下問題：
+                        <br>
+
+                    </p>
+                    <br>
+
+                    <div class="circle-highlight">
+                        <div class="circle-highlight-1">
+                            <h6 class="text-secondary">資訊狀況</h6>
+                            <p>
+                                提示語少，需要與客服確認如何登打才不會使資料上傳失敗。
+                            </p>
+                        </div>
+
+                        <div class="circle-highlight-1">
+                            <h6 class="text-secondary">資料登打</h6>
+                            <p>
+                                系統將課程不同天的資料分開必須要回到上一頁再往下看，導致登打資料時非常耗時間。
+                            </p>
+                        </div>
+
+                        <div class="circle-highlight-1">
+                            <h6 class="text-secondary">不確定因素</h6>
+                            <p>
+                                開課期間有些長者只來第一次，或者前十次都有到，僅兩次未出席，也因此沒後測，該如何記錄？
+                            </p>
+                        </div>
+                    </div>
+
+                </span>
+
+
+                <span>
+                    <h5>介面重構</h5>
+                    <p>
+                        平台主要功能為管理“人”以及其資料，最上層資料顯示介面上改採用卡片形式。
+                        <br>
+                        使用卡片形式有以下原因：
+                        <br>
+                        1. 減少使用者鼠標移動距離，讓操作速度變快
+                        <br>
+                        2. 將多餘資訊藏至卡片中，避免登打人員眼花
+                        <br>
+                        3. 使每一筆資料都具有獨立性
+                        <br>
+                        <br>
+                        以課程管理為例，下為上層資料顯示：
+                    </p>
+                    <img src="./img/HPAhealth/MU_class.jpg" alt="" class="pic-padding">
+                    <p>
+                        下圖為內層基本資料顯示，改用右側標籤方式，以內層多選下拉選單減少多選元件的空間：
+                    </p>
+                    <img src="./img/HPAhealth/MU_class_cardopen.jpg" alt="" class="pic-padding">
+                    <p>
+                        重新切分資訊區塊解決原先流程上無法在同一視窗登打改變狀態問題，
+                        也可以在每一頁都連結到登打前後測的區域，防止有其中幾堂無法到課的學員沒有登打到資料，導致數值平均不準確：
+                    </p>
+                    <img src="./img/HPAhealth/MU_class_cardopen2.jpg" alt="" class="pic-padding">
+                </span>
+
+                <span>
+
+                    <h5>簡化學員報到方式</h5>
+                    <p>
+                        系統以電子郵件註冊，舊版平台長者在報到時需要登打相關帳戶資料花費較多時間，新系統自動化報到流程如下：
+                        <br>
+                    </p>
+                    <img src="./img/HPAhealth/process.png" alt="" class="pic-padding">
+                    <br>
+
+                </span>
+
+                <span>
+                    <h5>下一步</h5>
+                    <p> 第二版預計於2022年6月中期開放各單位測試使用，測試將著重驗證登打資料以及查找資料的情形是否有改善、設計是否更簡單直覺，並持續進行優化。上層資訊介面方面，未來將會評估資訊區塊不用分頁改無限滾動方式是否能讓體驗更順暢。
+                        <br>
+                        另外預計與Line Bot連動讓學員得以實時追蹤課堂通知。
+                        <br>
+                    </p>
+                </span>
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

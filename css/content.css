@@ -1,0 +1,1272 @@
+@charset "UFT-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.html{
+    scroll-behavior: smooth;
+}
+
+
+/* 裝置 */
+
+/* W=0-768px */
+@media screen and (min-width:0px) and (max-width:768px){
+    html{
+        font-size:16px;
+        color: #fafafa;
+        }
+    
+        #bg-1{
+            background-image: url(../img/Workfe/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+        #bg-2{
+            background-image: url(../img/Foodie_snail/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-3{
+            background-image: url(../img/ease/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #ffffff;
+        }
+
+        #bg-4{
+            background-image: url(../img/HPAhealth/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-5{
+            background-image: url(../img/GoFreight/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-6{
+            background-image: url(../img/Social/banner_s.jpg);
+            background-size: 100vh;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+    
+    
+    
+        body{
+            color: #333333;
+        }
+    
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        
+        
+        .banner{
+            margin-top: 100%;
+            color: #333333;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            
+        }
+    
+        .banner .info{
+            font-family: 'Inter', sans-serif;
+        }
+
+        
+        .banner span{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10%;
+        }
+    
+        .banner h5{
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 4%;
+        }
+    
+        .banner p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+        .title{
+            margin-bottom: 20%;
+        }
+    
+        .title h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            padding-bottom: 1%;
+        }
+    
+        .title h1{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 4rem;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .title p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .IA_PIC{
+            margin-top: 10%;
+            max-width: 100%;
+        }
+    
+        .circle-highlight{
+            margin-top: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .circle-highlight-1{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 0 1 25%;
+        }
+    
+        .text-secondary{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #fafafa;
+            background-color: #333333;
+            width:10rem;height:10rem; 
+            border-radius:999em;
+            text-align: center;
+            line-height: 10rem;
+            font-size: 1rem;
+        }
+    
+        .circle-highlight-1 p{
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        .content-1{
+            margin: 20% 0%;
+        }
+    
+        .content-1 span{
+            display: flex;
+            flex-direction: column;
+            margin: 20% 0%;
+        }
+    
+        .content-1 h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 1rem;
+        }
+    
+        .content-1 p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+    
+        span a{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 900;
+            color: #333333;
+            border: #333333;
+    
+        }
+    
+        a:hover{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #70FF00;
+        }
+    
+        .hightlight{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+    
+        .hightlight-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    
+        .hightlight-content{
+            flex: 0 1 50%;
+            
+        }
+    
+        .hightlight h5{
+            line-height: 140%;
+        }
+    
+        .hightlightImg{
+            flex: 0 1 50%;
+            max-width: 100%;
+    
+        }
+
+        a{
+            text-decoration: none;
+            display:block;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: #333333;
+            width: fit-content;
+        }
+    
+        a:hover{
+            color: #70FF00;
+        }
+          
+        .Button:hover{
+            color: #70FF00;
+            border-color: #70FF00;
+            border-width: 0.3rem solid;
+            transition: 0.8s;
+        }
+        
+        .Button{
+            position: relative;
+            top: 50%;
+            left: 20%;
+            font-size: 1.4rem;
+            font-family: 'Inter', sans-serif;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+            font-weight: 700;
+            width: fit-content;
+            border-bottom-style: solid;
+            padding-bottom: 4%;
+            border-bottom: 0.2rem solid #333333;
+        }
+    
+        .pic-padding{
+            padding-top: 4%;
+            padding-bottom: 8%;
+            max-width: 100%;
+        }
+
+        .pic-width{
+            max-width: 100%;
+        }
+
+        .video {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        .video-1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+   
+}
+ 
+
+/* W=769-1424px */
+@media screen and (min-width:769px) and (max-width:1424px){
+
+    html{
+        font-size:16px;
+        color: #fafafa;
+        }
+    
+        #bg-1{
+            background-image: url(../img/Workfe/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+        #bg-2{
+            background-image: url(../img/Foodie_snail/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-3{
+            background-image: url(../img/ease/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #ffffff;
+        }
+
+    
+        #bg-4{
+            background-image: url(../img/HPAhealth/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-5{
+            background-image: url(../img/GoFreight/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-6{
+            background-image: url(../img/Social/banner_s.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+    
+        body{
+            color: #333333;
+        }
+    
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        
+        
+        .banner{
+            margin-top: 100%;
+            color: #333333;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            
+        }
+    
+        .banner .info{
+            font-family: 'Inter', sans-serif;
+        }
+
+        
+        .banner span{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10%;
+        }
+    
+        .banner h5{
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 4%;
+        }
+    
+        .banner p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+        .title{
+            margin-bottom: 20%;
+        }
+    
+        .title h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            padding-bottom: 1%;
+        }
+    
+        .title h1{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 4rem;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .title p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .IA_PIC{
+            margin-top: 10%;
+            max-width: 100%;
+        }
+    
+        .circle-highlight{
+            margin-top: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .circle-highlight-1{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 0 1 25%;
+        }
+    
+        .text-secondary{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #fafafa;
+            background-color: #333333;
+            width:10rem;height:10rem; 
+            border-radius:999em;
+            text-align: center;
+            line-height: 10rem;
+            font-size: 1rem;
+        }
+    
+        .circle-highlight-1 p{
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        .content-1{
+            margin: 10% 0%;
+        }
+    
+        .content-1 span{
+            display: flex;
+            flex-direction: column;
+            margin: 20% 0%;
+        }
+    
+        .content-1 h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 1rem;
+        }
+    
+        .content-1 p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+    
+        span a{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 900;
+            color: #333333;
+            border: #333333;
+    
+        }
+    
+        a:hover{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #70FF00;
+        }
+    
+        .hightlight{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+    
+        .hightlight-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    
+        .hightlight-content{
+            flex: 0 1 50%;
+            
+        }
+    
+        .hightlight h5{
+            line-height: 140%;
+        }
+    
+        .hightlightImg{
+            flex: 0 1 50%;
+            max-width: 100%;
+    
+        }
+    
+        a{
+            text-decoration: none;
+            display:block;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: #333333;
+            width: fit-content;
+        }
+    
+        a:hover{
+            color: #70FF00;
+        }
+    
+        .Button:hover{
+            color: #70FF00;
+            border-color: #70FF00;
+            border-width: 0.3rem solid;
+            transition: 0.8s;
+        }
+        
+        .Button{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            font-size: 1.6rem;
+            font-family: 'Inter', sans-serif;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+            font-weight: 700;
+            width: fit-content;
+            border-bottom-style: solid;
+            padding-bottom: 4%;
+            border-bottom: 0.2rem solid #333333;
+        }
+
+        .pic-padding{
+            padding-top: 4%;
+            padding-bottom: 8%;
+            max-width: 100%;
+
+        }
+
+        .pic-width{
+            max-width: 100%;
+        }
+
+        .video {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        .video-1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+}
+ 
+
+/* W=1425-1919px */
+@media screen and (min-width:1425px) and (max-width:1919px){
+
+    html{
+        font-size:16px;
+        color: #fafafa;
+        }
+    
+        #bg-1{
+            background-image: url(../img/Workfe/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+        #bg-2{
+            background-image: url(../img/Foodie_snail/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+    
+
+        #bg-3{
+            background-image: url(../img/ease/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #ffffff;
+        }
+
+        #bg-4{
+            background-image: url(../img/HPAhealth/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-5{
+            background-image: url(../img/GoFreight/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+
+
+        #bg-6{
+            background-image: url(../img/Social/banner.jpg);
+            background-size: 100vw;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-color: #fafafa;
+        }
+    
+    
+        body{
+            color: #333333;
+        }
+    
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        
+        
+        .banner{
+            margin: 20% 4%;
+            color: #fafafa;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+    
+        .banner .info{
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .banner span{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 5rem;
+        }
+    
+        .banner h5{
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 1rem;
+        }
+    
+        .banner p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+    
+        .title h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            padding-bottom: 0.75rem;
+        }
+    
+        .title h1{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 4rem;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .title p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: 0.4rem;
+            line-height: 140%;
+        }
+    
+        .IA_PIC{
+            margin-top: 10%;
+            max-width: 100%;
+        }
+    
+        .circle-highlight{
+            margin-top: 10%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+    
+        .circle-highlight-1{
+            font-family: 'Noto Sans TC', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 0 1 25%;
+        }
+    
+        .text-secondary{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #fafafa;
+            background-color: #333333;
+            width:10rem;height:10rem; 
+            border-radius:999em;
+            text-align: center;
+            line-height: 10rem;
+            font-size: 1rem;
+        }
+    
+        .circle-highlight-1 p{
+            margin-top: 14%;
+        }
+    
+    
+        .content-1{
+            margin: 16% 24%;
+        }
+    
+        .content-1 span{
+            display: flex;
+            flex-direction: column;
+            margin: 20% 0%;
+        }
+    
+        .content-1 h5{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            padding-bottom: 1rem;
+        }
+    
+        .content-1 p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        }
+    
+    
+        span a{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 900;
+            color: #333333;
+            border: #333333;
+    
+        }
+    
+        a:hover{
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #70FF00;
+        }
+    
+        .hightlight{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+        }
+    
+        .hightlight-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    
+        .hightlight-content{
+            flex: 0 1 60%;
+            height: fit-content;
+        }
+    
+        .hightlight h5{
+            line-height: 140%;
+        }
+    
+        .hightlightImg{
+            flex: 0 1 30%;
+            max-width: 80%;
+    
+        }
+    
+        .content-last{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 4rem;
+            letter-spacing: 0.2rem;
+        }
+
+        a{
+            text-decoration: none;
+            display:block;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: #333333;
+            width: fit-content;
+        }
+    
+        a:hover{
+            color: #70FF00;
+        }
+    
+        .Button:hover{
+            color: #70FF00;
+            border-color: #70FF00;
+            border-width: 0.3rem solid;
+            transition: 0.8s;
+        }
+        
+        .Button{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            font-size: 1.6rem;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            width: fit-content;
+            border-bottom-style: solid;
+            padding-bottom: 4%;
+            border-bottom: 0.2rem solid #333333;
+        }
+
+        .pic-padding{
+            padding-top: 4%;
+            padding-bottom: 8%;
+            max-width: 100%;
+        }
+
+        .pic-width{
+            max-width: 100%;
+        }
+
+        .video {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        .video-1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+    }
+
+/* W=1920px */
+@media screen and (min-width:1920px){
+
+/* nav */
+
+    html{
+    font-size:16px;
+    color: #fafafa;
+    }
+
+    #bg-1{
+        background-image: url(../img/Workfe/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+
+    #bg-2{
+        background-image: url(../img/Foodie_snail/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+
+
+    #bg-3{
+        background-image: url(../img/ease/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #ffffff;
+    }
+
+
+    #bg-4{
+        background-image: url(../img/HPAhealth/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+
+    #bg-5{
+        background-image: url(../img/GoFreight/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+
+
+    #bg-6{
+        background-image: url(../img/Social/banner.jpg);
+        background-size: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #fafafa;
+    }
+
+
+    body{
+        color: #333333;
+    }
+
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+    
+    .banner{
+        margin: 20% 0%;
+        color: #fafafa;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .banner .info{
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .banner span{
+        font-family: 'Noto Sans TC', sans-serif;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    .banner h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .banner p{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+
+
+    .title h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        padding-bottom: 0.75rem;
+    }
+
+    .title h1{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+    }
+
+    .title p{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 4rem;
+        font-weight: 800;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+    }
+
+    .IA_PIC{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .circle-highlight{
+        font-family: 'Noto Sans TC', sans-serif;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+
+    }
+
+    .circle-highlight-1{
+        font-family: 'Noto Sans TC', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 1 25%;
+    }
+
+    .text-secondary{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #fafafa;
+        background-color: #333333;
+        width:10rem;height:10rem; 
+        border-radius:999em;
+        text-align: center;
+        line-height: 10rem;
+        font-size: 1rem;
+    }
+
+    .circle-highlight-1 p{
+        margin-top: 14%;
+    }
+
+
+    .content-1{
+        margin: 16% 24%;
+    }
+
+    .content-1 span{
+        display: flex;
+        flex-direction: column;
+        margin: 20% 0%;
+    }
+
+    .content-1 h5{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .content-1 p{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+
+
+    span a{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 900;
+        color: #333333;
+        border: #333333;
+
+    }
+
+    a:hover{
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #70FF00;
+    }
+
+    .hightlight{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .hightlight-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 4%;
+        align-items: center;
+        
+    }
+
+    .hightlight-content{
+        flex: 0 1 60%;
+    }
+
+    .hightlight h5{
+        line-height: 140%;
+    }
+
+    .hightlightImg{
+        flex: 0 1 30%;
+        max-width: 80%;
+
+    }
+
+    a{
+        text-decoration: none;
+        display:block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: #333333;
+        width: fit-content;
+    }
+
+    a:hover{
+        color: #70FF00;
+    }
+
+    .Button {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        color: #333333;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        width: fit-content;
+        border-bottom-style: solid;
+        padding-bottom: 4%;
+        border-bottom: 0.2rem solid #333333;
+    }
+
+
+    .Button:hover{
+        color: #70FF00;
+        border-color: #70FF00;
+        border-width: 0.3rem solid;
+        transition: 0.8s;
+    }
+
+    .pic-padding{
+        padding-top: 4%;
+        padding-bottom: 8%;
+        max-width: 100%;
+    }
+
+    .pic-width{
+        max-width: 100%;
+    }
+
+    .video {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .video-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
