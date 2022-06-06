@@ -72,6 +72,10 @@ table {
         margin-bottom: 10%;
     }
     
+    .pic-padding{
+        max-width: 100%;
+    }
+
     .introbanner{
         color: #fafafa;
         display: flex;
@@ -238,6 +242,9 @@ table {
         margin-bottom: 10%;
     }
 
+    .pic-padding{
+        max-width: 100%;
+    }
 
     .introbanner{
         color: #fafafa;
@@ -401,6 +408,10 @@ table {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 10%;
+    }
+
+    .pic-padding{
+        max-width: 100%;
     }
 
   
@@ -579,7 +590,9 @@ table {
         margin-bottom: 10%;
     }
 
-   
+    .pic-padding{
+        max-width: 100%;
+    }
     
     .introbanner{
         color: #fafafa;
