@@ -147,6 +147,14 @@ table {
             line-height: 140%;
             padding: 0.2% 0%;
         }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
     }
     
  
@@ -243,6 +251,14 @@ table {
             line-height: 140%;
             padding: 0.2% 0%;
         }
+
+        a{
+            text-decoration: none;
+        }
+    
+        a:hover{
+            text-decoration: none;
+        }
     }
     
  
@@ -272,8 +288,6 @@ table {
             margin-top: 8%;
             margin-left: 10%;
             margin-right: 10%;
-            padding-left: 4%;
-            padding-right: 4%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -346,6 +360,14 @@ table {
             letter-spacing: 0.1rem;
             line-height: 140%;
             padding: 0.2% 0%;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    
+        a:hover{
+            text-decoration: none;
         }
     }
     
@@ -448,5 +470,13 @@ table {
         letter-spacing: 0.1rem;
         line-height: 140%;
         padding: 0.2% 0%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: none;
     }
 }
